@@ -1013,7 +1013,7 @@ section:nth-child(7) .animate.scroll {
     letter-spacing: 0.2px;
   }
   .home-soci {
-    bottom: -5rem;
+    bottom: -3rem;
     left: 5rem;
   }
 
@@ -1183,7 +1183,7 @@ transform:translateX(10%);
 
 @media (max-width: 400px) {
   .home-soci {
-    bottom: 10rem;
+    bottom: 5rem;
     left: 3rem;
   }
   .textarea-field .err-txt {
