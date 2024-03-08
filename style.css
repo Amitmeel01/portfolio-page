@@ -1183,7 +1183,7 @@ transform:translateX(10%);
 
 @media (max-width: 400px) {
   .home-soci {
-    bottom: 5rem;
+    bottom: 0rem;
     left: 3rem;
   }
   .textarea-field .err-txt {
