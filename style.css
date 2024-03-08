@@ -1058,7 +1058,7 @@ section:nth-child(7) .animate.scroll{
 }
 .home-soci {
    
-  bottom: 6rem;
+  bottom: 0rem;
   left: 5rem;
   
 }
@@ -1196,7 +1196,7 @@ transform:translateX(10%);
   }
   .home-soci {
    
-    bottom: 12rem;
+    bottom: 2rem;
     left: 5rem;
     
   }
@@ -1211,7 +1211,7 @@ transform:translateX(10%);
   }
   .home-soci {
    
-    bottom: 10rem;
+    bottom: 3rem;
     left: 3rem;
     
   }
