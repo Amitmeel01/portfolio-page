@@ -1019,7 +1019,7 @@ section:nth-child(7) .animate.scroll {
 
   #menu-icon {
     display: block;
-    transform: translate(-400%);
+    transform: translate(-350%);
     transition: 1s;
   }
 
@@ -1156,7 +1156,7 @@ transform:translateX(10%);
     word-break: break-all;
   }
   .home-soci {
-    bottom: 3rem;
+    bottom: 5rem;
     left: 3rem;
   }
   .textarea-field .err-txt {
@@ -1183,7 +1183,7 @@ transform:translateX(10%);
 
 @media (max-width: 400px) {
   .home-soci {
-    bottom: -5rem;
+    bottom: -2rem;
     left: 3rem;
   }
   .textarea-field .err-txt {
