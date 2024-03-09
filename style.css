@@ -12,10 +12,10 @@
 
 /* for background color in complete page*/
 :root {
-  --bg-color: #242582;
-  --second-bg-color: #2f2fa2;
-  --text-color: #ededed;
-  --main-color: #e27d60;
+  --bg-color: #bccbde;
+  --second-bg-color: #c2dde6;
+  --text-color: #431c5d;
+  --main-color: #e05915;
 }
 
 html {
