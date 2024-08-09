@@ -18,6 +18,10 @@
   --main-color: #e05915;
 }
 
+*{
+  -webkit-tap-highlight-color: transparent;
+}
+
 html {
   font-size: 62%;
   overflow-x: hidden;
@@ -42,6 +46,7 @@ body {
   align-items: center;
   z-index: 100;
   transition: 0.5s;
+  
 }
 .sticky {
   background: var(--bg-color);
@@ -931,12 +936,15 @@ section {
   animation: none;
 }
 
-section:nth-child(odd) .animate.scroll {
+section:nth-child(even) .animate.scroll {
   background: var(--second-bg-color);
 }
 
-section:nth-child(6) .animate.scroll {
+section:nth-child(4) .animate.scroll {
   background: var(--bg-color);
+}
+.about .animate.scroll {
+  background: var(--second-bg-color) !important;
 }
 /* headersection:nth-child(even) .animate.scroll{
   background: var(--bg-color);
@@ -982,6 +990,13 @@ section:nth-child(6) .animate.scroll {
   transition-delay: calc(0.3s * var(--i));
   width: 0;
   /* opacity: 1; */
+}
+
+
+
+/*sidebar*/
+#mySidebar{
+  display: none;
 }
 
 /*mediaquery*/
@@ -1232,4 +1247,81 @@ transform:translateX(10%);
   100% {
     width: 0;
   }
+}
+
+
+@media (max-width:700px){
+
+
+/*sidebar*/
+
+.sidebar {
+  height: 100vh;
+  width: 25rem;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 50px;
+  display: none;
+  overflow: hidden;
+  
+  /* padding-bottom: 2rem; */
+  /* margin-top: 5rem; */
+}
+.sidebar a {
+  padding: 6px 8px 6px 6px;
+  text-decoration: none;
+  font-size: 3rem;
+  color: var(--second-text);
+  display: block;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+  /* margin-left: 7rem; */
+  font-weight: bold;
+  position: relative;
+  top: 5rem;
+  text-align: center;
+  background: transparent;
+  /* padding-bottom: 2rem; */
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: -3.5rem;
+  right: 35px;
+  font-size: 8rem;
+  margin-left: 50px;
+  color: var(--second-text);
+  /* font-size: 2rem; */
+}
+
+/* header{
+   margin: 0;
+   padding: 0;
+ 
+} */
+#home{
+  
+  min-height: 90vh;
+  padding: 0rem 8% 2rem;
+  margin-top: 0rem;
+
+}
+
+.home-soci{
+  margin-bottom: 20rem;
+  margin-left: 1.5rem;
+}
+section{
+  height: auto;
+}
+
 }
